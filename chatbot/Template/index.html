@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        #chat-container {
+            max-width: 400px;
+            margin: auto;
+            border: 5px solid #ccc;
+            padding: 10px;
+            overflow-y: auto;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+
+    <form id="user-input-form">
+        <input type="text" id="user-message" placeholder="I am here to help you! Ask anything...">
+        <button type="button" id="send-button" onclick="sendMessage()">Send</button>
+    </form>
+    </div>
+</body>
+</html>
